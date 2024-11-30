@@ -1,0 +1,1 @@
+bind \n history-pager
