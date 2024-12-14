@@ -8,7 +8,7 @@ if status is-interactive
     alias studentnr=echo '$STUDENTNR'
 
     abbr -a gaa "git add -A"
-    abbr -a gcm "git commit -m"
-    abbr -a gcam "git commit -am"
+    abbr -a --set-cursor gcm "git commit -m '%'"
+    abbr -a --set-cursor gcam "git commit -am '%'"
 end
     
